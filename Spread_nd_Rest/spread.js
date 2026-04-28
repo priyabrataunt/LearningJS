@@ -10,3 +10,6 @@ const extra = {city:"Denton"};
 
 const full = {...person, ...extra}
 console.log(full)
+
+import greet from "./shopping_cart.js"; // no {} needed
+console.log(greet)

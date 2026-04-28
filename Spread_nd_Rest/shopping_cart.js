@@ -3,6 +3,10 @@ const cart2 = ["milk", "bread"];
 
 const user = { name: "Ahmed", age: 28 };
 
+export default function greet(name) {
+    return `Hello, ${name}!`;
+}
+
 // ! Your tasks:
 
 // * Combine cart1 and cart2 into one array called fullCart
