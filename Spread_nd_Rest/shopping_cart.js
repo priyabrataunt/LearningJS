@@ -11,11 +11,14 @@ const user = { name: "Ahmed", age: 28 };
 // * Call printAll with all items from fullCart — use Spread for this
 
 const fullcart = [...cart1, ...cart2];
-console.log(fullcart);
+const updatedUser = {...user, city: "Denton"};
+console.log(updatedUser);
 
-function add(args){
-    console.log(user)
+function printAll(...args){
+    console.log(args)
 }
+
+printAll(...fullcart);
 
 // user.add(city:"Denton"};
 
